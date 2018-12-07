@@ -1,182 +1,203 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "WotFA",
-				"abbreviation": "FA",
-				"full": "Way of the Four Elements (UA)",
-				"authors": [
-					"SpiketailDrake",
-					"IrishBandit"
-				],
-				"version": "3.0",
-				"url": "https://drive.google.com/file/d/0B5ttoyMfsaC7eFhVenpwZ0R4ZmM/view?usp=sharing",
-				"targetSchema": "1.0.0"
-			}
-		],
-		"dateAdded": 1537874753
-	},
-	"subclass": [
-		{
-			"class": "Monk",
-			"name": "Way of the Four Elements (Remastered)",
-			"subclassFeatures": [
-				[
-					{
-						"name": "Way of the Four Elements",
-						"entries": [
-							"You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.",
-							"Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.",
-							{
-								"type": "entries",
-								"name": "Initiate of the Way",
-								"entries": [
-									"When you choose this tradition at 3rd level, you learn how to manipulate the four elements in subtle ways. You learn two of the following cantrips: {@spell control flames}, {@spell gust}, {@spell mold earth}, or {@spell shape water}. You learn two additional cantrips from this list at 6th level."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "Disciple of the Elements",
-								"entries": [
-									"At 3rd level, you learn magical disciplines that harness the power of the four elements. Some disciplines require you to spend ki points when you use them.",
-									"You learn two elemental disciplines of your choice, which are detailed in the elemental disciplines sections below. You learn two additional elemental disciplines of your choice at 6th, 11th, and 17th level.",
-									"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.",
-									"Casting Elemental Spells. Some elemental disciplines allow you to cast spells. See chapter 10 of the Player’s Handbook for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don’t need to provide material components for it. When you cast a spell with a discipline, it is cast at the spell’s lowest level unless otherwise specified.",
-									"Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as {@spell burning hands} does. The spell’s level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast {@spell burning hands}, you can spend 2 ki points to cast it as a 2nd-level spell (the discipline’s base cost of 1 ki point plus 1).",
-									"The maximum number of ki points (its base ki point cost plus any additional points) that you can spend on the spell is 2, unless a discipline specifies otherwise. This maximum increases to 3 at 9th level, 4 at 13th level, and 5 at 17th level."
-								]
-							},
-							{
-								"type": "entries",
-								"name": "3rd Level Disciplines",
-								"entries": [
-									{
-										"type": "options",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "Become the Teapot.",
-												"entries": [
-													"You roll with the incoming energy, attuning to element, becoming it. You can spend 1 ki point to cast {@spell absorb elements}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Effortless Step.",
-												"entries": [
-													"The air around you works in unison with your movements, rising you up as you jump. Your jump height and distance are doubled (quadrupled with Step of the Wind) and you gain advantage on Strength (Athletics) checks related to jumping."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Enduring Mountain Stance.",
-												"entries": [
-													"Your body and mind becomes as rigid and unyielding as the ground below you. Your ki roots your feet into the ground and you become immovable. When you use the Dodge action, you cannot be moved, pushed, grappled, frightened, or knocked prone against your will until the start of your next turn, even if magically compelled to do so. You must be standing on the ground to use this ability."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fangs of the Fire Snake.",
-												"entries": [
-													"Your arms and legs become enveloped in roaring gouts of flame. When you make an unarmed attack on your turn, you can choose to strike out tendrils of flames which stretch out beyond your normal reach. Your reach increases by 5 feet for that attack, and it deals fire damage instead of bludgeoning damage. If the attack hits you can spend 1 ki point to deal an extra 1d10 fire damage."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fang of the Frost Wolf.",
-												"entries": [
-													"You summon a shard of razor-sharp ice and fling it at your foe. You can spend 1 ki point to cast {@spell ice knife}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fist of Four Thunders.",
-												"entries": [
-													"You slam your fists together in front of you, causing a thunderous boom that blows away everything around you. You can spend 1 ki point to cast {@spell thunderwave}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fist of Unbroken Air",
-												"entries": [
-													"You summon a swirling wind and concentrate it around your fist. When you make an unarmed attack on your turn, you can choose to strike out condensed bursts of air which stretch out beyond your normal reach. Your reach increases by 10 feet for that attack. If the attack hits you can spend 1 ki point to force the target to make a Strength saving throw or be pushed back 10 feet and be knocked prone."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Golden Snake's Icy Path.",
-												"entries": [
-													"Whenever you take the Dash action, until the end of your turn for any movement you make along a surface you can leave a trail of slippery ice. This ice counts as difficult terrain and lasts until the start of your next turn."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Rumbling Badger.",
-												"entries": [
-													"You shake the ground, causing a tremor that knocks over your foes. You can spend 1 ki point to cast {@spell earth tremor}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Rush of Gale Spirits",
-												"entries": [
-													"You send a blast of air outward with a thrust of your open palm. You can spend 2 ki points to cast {@spell gust of wind}."
-												]
-											}
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				[
-					{
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Frenetic Crescendo",
-								"entries": [
-									"At 6th level, you can harness the beat of battle, whipping it into a frenzy of drums, chants, and glory. You can use your action to expend any number of uses of your Bardic Inspiration feature. For each expended use, you can immediately grant a Bardic Inspiration die to a creature other than yourself within 60 feet that you can see. A creature can have only one Bardic Inspiration die at a time.",
-									"Once you use this feature, you must finish a long rest before you can use it again."
-								]
-							}
-						]
-					}
-				],
-				[
-					{
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Virtuoso of Captivation",
-								"entries": [
-									"Upon reaching 14th level, you can begin conducting a mystical symphony as an action, distracting and capturing the minds of of nearby creatures. For up to 10 minutes, any number of creatures you choose within 60 feet who can hear you have disadvantage on any saving throws against being charmed and against magical steep.",
-									"In addition, affected targets have disadvantage on Wisdom (Perception) rolls that rely on sight or sound to detect targets other than you.",
-									"In combat, you must spend your action each turn to continue the performance or the effect ends. Once you use Virtuoso of Captivation, you must finish a short or long rest before you can use it again."
-								]
-							}
-						]
-					}
-				],
-				[
-					{
-						"entries": [
-							{
-								"type": "entries",
-								"name": "Virtuoso of Captivation",
-								"entries": [
-									"Upon reaching 14th level, you can begin conducting a mystical symphony as an action, distracting and capturing the minds of of nearby creatures. For up to 10 minutes, any number of creatures you choose within 60 feet who can hear you have disadvantage on any saving throws against being charmed and against magical steep.",
-									"In addition, affected targets have disadvantage on Wisdom (Perception) rolls that rely on sight or sound to detect targets other than you.",
-									"In combat, you must spend your action each turn to continue the performance or the effect ends. Once you use Virtuoso of Captivation, you must finish a short or long rest before you can use it again."
-								]
-							}
-						]
-					}
-				]
-			],
-			"source": "WotFA",
-			"shortName": "Four Elements (UA)"
-		}
-	]
+   "_meta": {
+      "sources": [
+         {
+            "json": "WotFA",
+            "abbreviation": "FA",
+            "full": "Way of the Four Elements (UA)",
+            "authors": [
+               "SpiketailDrake",
+               "IrishBandit"
+            ],
+            "version": "3.0",
+            "url": "https://drive.google.com/file/d/0B5ttoyMfsaC7eFhVenpwZ0R4ZmM/view?usp=sharing",
+            "targetSchema": "1.0.0"
+         }
+      ],
+      "dateAdded": 1537874753
+   },
+   "subclass": [
+      {
+         "class": "Monk",
+         "name": "Way of the Four Elements (Remastered)",
+         "subclassFeatures": [
+            [
+               {
+                  "name": "Way of the Four Elements",
+                  "entries": [
+                     "You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.",
+                     "Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.",
+                     {
+                        "type": "entries",
+                        "name": "Initiate of the Way",
+                        "entries": [
+                           "When you choose this tradition at 3rd level, you learn how to manipulate the four elements in subtle ways. You learn two of the following cantrips: {@spell control flames}, {@spell gust}, {@spell mold earth}, or {@spell shape water}. You learn two additional cantrips from this list at 6th level."
+                        ]
+                     },
+                     {
+                        "type": "entries",
+                        "name": "Disciple of the Elements",
+                        "entries": [
+                           "At 3rd level, you learn magical disciplines that harness the power of the four elements. Some disciplines require you to spend ki points when you use them.",
+                           "You learn two elemental disciplines of your choice, which are detailed in the elemental disciplines sections below. You learn two additional elemental disciplines of your choice at 6th, 11th, and 17th level.",
+                           "Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.",
+                           "Casting Elemental Spells. Some elemental disciplines allow you to cast spells. See chapter 10 of the Player’s Handbook for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don’t need to provide material components for it. When you cast a spell with a discipline, it is cast at the spell’s lowest level unless otherwise specified.",
+                           "Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as {@spell burning hands} does. The spell’s level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast {@spell burning hands}, you can spend 2 ki points to cast it as a 2nd-level spell (the discipline’s base cost of 1 ki point plus 1).",
+                           "The maximum number of ki points (its base ki point cost plus any additional points) that you can spend on the spell is 2, unless a discipline specifies otherwise. This maximum increases to 3 at 9th level, 4 at 13th level, and 5 at 17th level."
+                        ]
+                     },
+                     {
+                        "type": "entries",
+                        "name": "3rd Level Disciplines",
+                        "entries": [
+                           {
+                              "type": "options",
+                              "entries": [
+                                 {
+                                    "type": "entries",
+                                    "name": "Become the Teapot.",
+                                    "entries": [
+                                       "You roll with the incoming energy, attuning to element, becoming it. You can spend 1 ki point to cast {@spell absorb elements}."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Effortless Step.",
+                                    "entries": [
+                                       "The air around you works in unison with your movements, rising you up as you jump. Your jump height and distance are doubled (quadrupled with Step of the Wind) and you gain advantage on Strength (Athletics) checks related to jumping."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Enduring Mountain Stance.",
+                                    "entries": [
+                                       "Your body and mind becomes as rigid and unyielding as the ground below you. Your ki roots your feet into the ground and you become immovable. When you use the {@action Dodge} action, you cannot be moved, pushed, grappled, frightened, or knocked prone against your will until the start of your next turn, even if magically compelled to do so. You must be standing on the ground to use this ability."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Fangs of the Fire Snake.",
+                                    "entries": [
+                                       "Your arms and legs become enveloped in roaring gouts of flame. When you make an unarmed attack on your turn, you can choose to strike out tendrils of flames which stretch out beyond your normal reach. Your reach increases by 5 feet for that attack, and it deals fire damage instead of bludgeoning damage. If the attack hits you can spend 1 ki point to deal an extra 1d10 fire damage."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Fang of the Frost Wolf.",
+                                    "entries": [
+                                       "You summon a shard of razor-sharp ice and fling it at your foe. You can spend 1 ki point to cast {@spell ice knife}."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Fist of Four Thunders.",
+                                    "entries": [
+                                       "You slam your fists together in front of you, causing a thunderous boom that blows away everything around you. You can spend 1 ki point to cast {@spell thunderwave}."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Fist of Unbroken Air",
+                                    "entries": [
+                                       "You summon a swirling wind and concentrate it around your fist. When you make an unarmed attack on your turn, you can choose to strike out condensed bursts of air which stretch out beyond your normal reach. Your reach increases by 10 feet for that attack. If the attack hits you can spend 1 ki point to force the target to make a Strength saving throw or be pushed back 10 feet and be knocked {@condition prone}."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Golden Snake's Icy Path.",
+                                    "entries": [
+                                       "Whenever you take the {@action Dash} action, until the end of your turn for any movement you make along a surface you can leave a trail of slippery ice. This ice counts as difficult terrain and lasts until the start of your next turn."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Rumbling Badger.",
+                                    "entries": [
+                                       "You shake the ground, causing a tremor that knocks over your foes. You can spend 1 ki point to cast {@spell earth tremor}."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Rush of Gale Spirits.",
+                                    "entries": [
+                                       "You send a blast of air outward with a thrust of your open palm. You can spend 2 ki points to cast {@spell gust of wind}."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Shape the Raincloud.",
+                                    "entries": [
+                                       "You can spend 1 ki point to cast {@spell create or destroy water}."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Sweeping Cinder Strike.",
+                                    "entries": [
+                                       "With a wide sweeping gesture, you summon forth a barrage of hot cinders. You can spend 1 ki point to cast {@spell burning hands}."
+                                    ]
+                                 },
+                                 {
+                                    "type": "entries",
+                                    "name": "Water Whip.",
+                                    "entries": [
+                                       "You summon a long, rubbery whip of pure water that you grip by one end. You can spend 1 ki point as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes bludgeoning damage equal to your Martial Arts die + your Wisdom modifier, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can either knock it {@condition prone} or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don’t pull it or knock it {@condition prone}. You can’t use Water Whip and cast a spell during the same turn."
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            [
+               {
+                  "entries": [
+                     {
+                        "type": "entries",
+                        "name": "Frenetic Crescendo",
+                        "entries": [
+                           "At 6th level, you can harness the beat of battle, whipping it into a frenzy of drums, chants, and glory. You can use your action to expend any number of uses of your Bardic Inspiration feature. For each expended use, you can immediately grant a Bardic Inspiration die to a creature other than yourself within 60 feet that you can see. A creature can have only one Bardic Inspiration die at a time.",
+                           "Once you use this feature, you must finish a long rest before you can use it again."
+                        ]
+                     }
+                  ]
+               }
+            ],
+            [
+               {
+                  "entries": [
+                     {
+                        "type": "entries",
+                        "name": "Virtuoso of Captivation",
+                        "entries": [
+                           "Upon reaching 14th level, you can begin conducting a mystical symphony as an action, distracting and capturing the minds of of nearby creatures. For up to 10 minutes, any number of creatures you choose within 60 feet who can hear you have disadvantage on any saving throws against being charmed and against magical steep.",
+                           "In addition, affected targets have disadvantage on Wisdom (Perception) rolls that rely on sight or sound to detect targets other than you.",
+                           "In combat, you must spend your action each turn to continue the performance or the effect ends. Once you use Virtuoso of Captivation, you must finish a short or long rest before you can use it again."
+                        ]
+                     }
+                  ]
+               }
+            ],
+            [
+               {
+                  "entries": [
+                     {
+                        "type": "entries",
+                        "name": "Virtuoso of Captivation",
+                        "entries": [
+                           "Upon reaching 14th level, you can begin conducting a mystical symphony as an action, distracting and capturing the minds of of nearby creatures. For up to 10 minutes, any number of creatures you choose within 60 feet who can hear you have disadvantage on any saving throws against being charmed and against magical steep.",
+                           "In addition, affected targets have disadvantage on Wisdom (Perception) rolls that rely on sight or sound to detect targets other than you.",
+                           "In combat, you must spend your action each turn to continue the performance or the effect ends. Once you use Virtuoso of Captivation, you must finish a short or long rest before you can use it again."
+                        ]
+                     }
+                  ]
+               }
+            ]
+         ],
+         "source": "WotFA",
+         "shortName": "Four Elements (UA)"
+      }
+   ]
 }
