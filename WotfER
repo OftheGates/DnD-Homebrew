@@ -2,9 +2,9 @@
    "_meta": {
       "sources": [
          {
-            "json": "Wot4A",
+            "json": "WotFA",
             "abbreviation": "FA",
-            "full": "Way of the Four Elements (UA)",
+            "full": "Way of the Four Elements (Remastered)",
             "authors": [
                "SpiketailDrake",
                "IrishBandit"
@@ -160,8 +160,8 @@
                }
             ]
          ],
-         "source": "MercerMaestro",
-         "shortName": "Maestro"
+         "source": "WotFA",
+         "shortName": "FA"
       }
    ]
 }
