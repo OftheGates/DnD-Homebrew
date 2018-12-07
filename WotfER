@@ -48,7 +48,7 @@
 							},
 							{
 								"type": "entries",
-								"name": "3rd Level Elemental Disciplines",
+								"name": "3rd Level Disciplines",
 								"entries": [
 									{
 										"type": "options",
@@ -156,103 +156,11 @@
 						"entries": [
 							{
 								"type": "entries",
-								"name": "6th Level Elemental Disciplines",
+								"name": "Frenetic Crescendo",
 								"entries": [
-									{
-										"type": "options",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "Become the Teapot",
-												"entries": [
-													"You roll with the incoming energy, attuning to element, becoming it. You can spend 1 ki point to cast {@spell absorb elements}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Effortless Step",
-												"entries": [
-													"The air around you works in unison with your movements, rising you up as you jump. Your jump height and distance are doubled (quadrupled with Step of the Wind) and you gain advantage on Strength (Athletics) checks related to jumping."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Enduring Mountain Stance",
-												"entries": [
-													"Your body and mind becomes as rigid and unyielding as the ground below you. Your ki roots your feet into the ground and you become immovable. When you use the {@action Dodge} action, you cannot be moved, pushed, grappled, frightened, or knocked prone against your will until the start of your next turn, even if magically compelled to do so. You must be standing on the ground to use this ability."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fangs of the Fire Snake",
-												"entries": [
-													"Your arms and legs become enveloped in roaring gouts of flame. When you make an unarmed attack on your turn, you can choose to strike out tendrils of flames which stretch out beyond your normal reach. Your reach increases by 5 feet for that attack, and it deals fire damage instead of bludgeoning damage. If the attack hits you can spend 1 ki point to deal an extra {@dice 1d10} fire damage."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fang of the Frost Wolf",
-												"entries": [
-													"You summon a shard of razor-sharp ice and fling it at your foe. You can spend 1 ki point to cast {@spell ice knife}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fist of Four Thunders",
-												"entries": [
-													"You slam your fists together in front of you, causing a thunderous boom that blows away everything around you. You can spend 1 ki point to cast {@spell thunderwave}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fist of Unbroken Air",
-												"entries": [
-													"You summon a swirling wind and concentrate it around your fist. When you make an unarmed attack on your turn, you can choose to strike out condensed bursts of air which stretch out beyond your normal reach. Your reach increases by 10 feet for that attack. If the attack hits you can spend 1 ki point to force the target to make a Strength saving throw or be pushed back 10 feet and be knocked {@condition prone}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Golden Snake's Icy Path",
-												"entries": [
-													"Whenever you take the {@action Dash} action, until the end of your turn for any movement you make along a surface you can leave a trail of slippery ice. This ice counts as difficult terrain and lasts until the start of your next turn."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Rumbling Badger",
-												"entries": [
-													"You shake the ground, causing a tremor that knocks over your foes. You can spend 1 ki point to cast {@spell earth tremor}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Rush of Gale Spirits",
-												"entries": [
-													"You send a blast of air outward with a thrust of your open palm. You can spend 2 ki points to cast {@spell gust of wind}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Shape the Raincloud",
-												"entries": [
-													"You can spend 1 ki point to cast {@spell create or destroy water}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Sweeping Cinder Strike",
-												"entries": [
-													"With a wide sweeping gesture, you summon forth a barrage of hot cinders. You can spend 1 ki point to cast {@spell burning hands}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Water Whip",
-												"entries": [
-													"You summon a long, rubbery whip of pure water that you grip by one end. You can spend 1 ki point as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes bludgeoning damage equal to your Martial Arts die + your Wisdom modifier, plus an extra {@dice 1d10} bludgeoning damage for each additional ki point you spend, and you can either knock it {@condition prone} or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don’t pull it or knock it {@condition prone}. You can’t use Water Whip and cast a spell during the same turn."
-												]
-											}
-										]
+									"At 6th level, you can harness the beat of battle, whipping it into a frenzy of drums, chants, and glory. You can use your action to expend any number of uses of your Bardic Inspiration feature. For each expended use, you can immediately grant a Bardic Inspiration die to a creature other than yourself within 60 feet that you can see. A creature can have only one Bardic Inspiration die at a time.",
+									"Once you use this feature, you must finish a long rest before you can use it again."
+								]
 							}
 						]
 					}
@@ -262,103 +170,12 @@
 						"entries": [
 							{
 								"type": "entries",
-								"name": "11th Level Elemental Disciplines",
+								"name": "Virtuoso of Captivation",
 								"entries": [
-									{
-										"type": "options",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "Become the Teapot",
-												"entries": [
-													"You roll with the incoming energy, attuning to element, becoming it. You can spend 1 ki point to cast {@spell absorb elements}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Effortless Step",
-												"entries": [
-													"The air around you works in unison with your movements, rising you up as you jump. Your jump height and distance are doubled (quadrupled with Step of the Wind) and you gain advantage on Strength (Athletics) checks related to jumping."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Enduring Mountain Stance",
-												"entries": [
-													"Your body and mind becomes as rigid and unyielding as the ground below you. Your ki roots your feet into the ground and you become immovable. When you use the {@action Dodge} action, you cannot be moved, pushed, grappled, frightened, or knocked prone against your will until the start of your next turn, even if magically compelled to do so. You must be standing on the ground to use this ability."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fangs of the Fire Snake",
-												"entries": [
-													"Your arms and legs become enveloped in roaring gouts of flame. When you make an unarmed attack on your turn, you can choose to strike out tendrils of flames which stretch out beyond your normal reach. Your reach increases by 5 feet for that attack, and it deals fire damage instead of bludgeoning damage. If the attack hits you can spend 1 ki point to deal an extra {@dice 1d10} fire damage."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fang of the Frost Wolf",
-												"entries": [
-													"You summon a shard of razor-sharp ice and fling it at your foe. You can spend 1 ki point to cast {@spell ice knife}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fist of Four Thunders",
-												"entries": [
-													"You slam your fists together in front of you, causing a thunderous boom that blows away everything around you. You can spend 1 ki point to cast {@spell thunderwave}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fist of Unbroken Air",
-												"entries": [
-													"You summon a swirling wind and concentrate it around your fist. When you make an unarmed attack on your turn, you can choose to strike out condensed bursts of air which stretch out beyond your normal reach. Your reach increases by 10 feet for that attack. If the attack hits you can spend 1 ki point to force the target to make a Strength saving throw or be pushed back 10 feet and be knocked {@condition prone}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Golden Snake's Icy Path",
-												"entries": [
-													"Whenever you take the {@action Dash} action, until the end of your turn for any movement you make along a surface you can leave a trail of slippery ice. This ice counts as difficult terrain and lasts until the start of your next turn."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Rumbling Badger",
-												"entries": [
-													"You shake the ground, causing a tremor that knocks over your foes. You can spend 1 ki point to cast {@spell earth tremor}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Rush of Gale Spirits",
-												"entries": [
-													"You send a blast of air outward with a thrust of your open palm. You can spend 2 ki points to cast {@spell gust of wind}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Shape the Raincloud",
-												"entries": [
-													"You can spend 1 ki point to cast {@spell create or destroy water}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Sweeping Cinder Strike",
-												"entries": [
-													"With a wide sweeping gesture, you summon forth a barrage of hot cinders. You can spend 1 ki point to cast {@spell burning hands}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Water Whip",
-												"entries": [
-													"You summon a long, rubbery whip of pure water that you grip by one end. You can spend 1 ki point as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes bludgeoning damage equal to your Martial Arts die + your Wisdom modifier, plus an extra {@dice 1d10} bludgeoning damage for each additional ki point you spend, and you can either knock it {@condition prone} or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don’t pull it or knock it {@condition prone}. You can’t use Water Whip and cast a spell during the same turn."
-												]
-											}
-										]
+									"Upon reaching 14th level, you can begin conducting a mystical symphony as an action, distracting and capturing the minds of of nearby creatures. For up to 10 minutes, any number of creatures you choose within 60 feet who can hear you have disadvantage on any saving throws against being charmed and against magical steep.",
+									"In addition, affected targets have disadvantage on Wisdom (Perception) rolls that rely on sight or sound to detect targets other than you.",
+									"In combat, you must spend your action each turn to continue the performance or the effect ends. Once you use Virtuoso of Captivation, you must finish a short or long rest before you can use it again."
+								]
 							}
 						]
 					}
@@ -368,103 +185,12 @@
 						"entries": [
 							{
 								"type": "entries",
-								"name": "17th Level Elemental Disciplines",
+								"name": "Virtuoso of Captivation",
 								"entries": [
-									{
-										"type": "options",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "Become the Teapot",
-												"entries": [
-													"You roll with the incoming energy, attuning to element, becoming it. You can spend 1 ki point to cast {@spell absorb elements}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Effortless Step",
-												"entries": [
-													"The air around you works in unison with your movements, rising you up as you jump. Your jump height and distance are doubled (quadrupled with Step of the Wind) and you gain advantage on Strength (Athletics) checks related to jumping."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Enduring Mountain Stance",
-												"entries": [
-													"Your body and mind becomes as rigid and unyielding as the ground below you. Your ki roots your feet into the ground and you become immovable. When you use the {@action Dodge} action, you cannot be moved, pushed, grappled, frightened, or knocked prone against your will until the start of your next turn, even if magically compelled to do so. You must be standing on the ground to use this ability."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fangs of the Fire Snake",
-												"entries": [
-													"Your arms and legs become enveloped in roaring gouts of flame. When you make an unarmed attack on your turn, you can choose to strike out tendrils of flames which stretch out beyond your normal reach. Your reach increases by 5 feet for that attack, and it deals fire damage instead of bludgeoning damage. If the attack hits you can spend 1 ki point to deal an extra {@dice 1d10} fire damage."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fang of the Frost Wolf",
-												"entries": [
-													"You summon a shard of razor-sharp ice and fling it at your foe. You can spend 1 ki point to cast {@spell ice knife}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fist of Four Thunders",
-												"entries": [
-													"You slam your fists together in front of you, causing a thunderous boom that blows away everything around you. You can spend 1 ki point to cast {@spell thunderwave}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Fist of Unbroken Air",
-												"entries": [
-													"You summon a swirling wind and concentrate it around your fist. When you make an unarmed attack on your turn, you can choose to strike out condensed bursts of air which stretch out beyond your normal reach. Your reach increases by 10 feet for that attack. If the attack hits you can spend 1 ki point to force the target to make a Strength saving throw or be pushed back 10 feet and be knocked {@condition prone}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Golden Snake's Icy Path",
-												"entries": [
-													"Whenever you take the {@action Dash} action, until the end of your turn for any movement you make along a surface you can leave a trail of slippery ice. This ice counts as difficult terrain and lasts until the start of your next turn."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Rumbling Badger",
-												"entries": [
-													"You shake the ground, causing a tremor that knocks over your foes. You can spend 1 ki point to cast {@spell earth tremor}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Rush of Gale Spirits",
-												"entries": [
-													"You send a blast of air outward with a thrust of your open palm. You can spend 2 ki points to cast {@spell gust of wind}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Shape the Raincloud",
-												"entries": [
-													"You can spend 1 ki point to cast {@spell create or destroy water}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Sweeping Cinder Strike",
-												"entries": [
-													"With a wide sweeping gesture, you summon forth a barrage of hot cinders. You can spend 1 ki point to cast {@spell burning hands}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Water Whip",
-												"entries": [
-													"You summon a long, rubbery whip of pure water that you grip by one end. You can spend 1 ki point as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes bludgeoning damage equal to your Martial Arts die + your Wisdom modifier, plus an extra {@dice 1d10} bludgeoning damage for each additional ki point you spend, and you can either knock it {@condition prone} or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don’t pull it or knock it {@condition prone}. You can’t use Water Whip and cast a spell during the same turn."
-												]
-											}
-										]
+									"Upon reaching 14th level, you can begin conducting a mystical symphony as an action, distracting and capturing the minds of of nearby creatures. For up to 10 minutes, any number of creatures you choose within 60 feet who can hear you have disadvantage on any saving throws against being charmed and against magical steep.",
+									"In addition, affected targets have disadvantage on Wisdom (Perception) rolls that rely on sight or sound to detect targets other than you.",
+									"In combat, you must spend your action each turn to continue the performance or the effect ends. Once you use Virtuoso of Captivation, you must finish a short or long rest before you can use it again."
+								]
 							}
 						]
 					}
