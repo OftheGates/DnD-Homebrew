@@ -31,7 +31,7 @@
 								"type": "entries",
 								"name": "Initiate of the Way",
 								"entries": [
-									"When you choose this tradition at 3rd level, you learn how to manipulate the four elements in subtle ways. You learn two of the following cantrips: {@spell control flames}, {@spell gust}, {@spell mold earth}, or {@spell shape water}. You learn two additional cantrips from this list at 6th level."
+									"When you choose this tradition at 3rd level, you learn how to manipulate the four elements in subtle ways. You learn two of the following cantrips: {@spell control flames|xge}, {@spell gust|xge}, {@spell mold earth|xge}, or {@spell shape water|xge}. You learn two additional cantrips from this list at 6th level."
 								]
 							},
 							{
@@ -57,7 +57,7 @@
 												"type": "entries",
 												"name": "Become the Teapot",
 												"entries": [
-													"You roll with the incoming energy, attuning to element, becoming it. You can spend 1 ki point to cast {@spell absorb elements}."
+													"You roll with the incoming energy, attuning to element, becoming it. You can spend 1 ki point to cast {@spell absorb elements|xge}."
 												]
 											},
 											{
@@ -85,7 +85,7 @@
 												"type": "entries",
 												"name": "Fang of the Frost Wolf",
 												"entries": [
-													"You summon a shard of razor-sharp ice and fling it at your foe. You can spend 1 ki point to cast {@spell ice knife}."
+													"You summon a shard of razor-sharp ice and fling it at your foe. You can spend 1 ki point to cast {@spell ice knife|xge}."
 												]
 											},
 											{
@@ -113,7 +113,7 @@
 												"type": "entries",
 												"name": "Rumbling Badger",
 												"entries": [
-													"You shake the ground, causing a tremor that knocks over your foes. You can spend 1 ki point to cast {@spell earth tremor}."
+													"You shake the ground, causing a tremor that knocks over your foes. You can spend 1 ki point to cast {@spell earth tremor|xge}."
 												]
 											},
 											{
@@ -172,21 +172,21 @@
 												"type": "entries",
 												"name": "Burning Ember Flourish",
 												"entries": [
-													"You reach out with your ki to snuff out a source of fire, causing it to go out with a bang or to sputter black smoke. You can spend 2 ki points to cast {@spell pyrotechnics}."
+													"You reach out with your ki to snuff out a source of fire, causing it to go out with a bang or to sputter black smoke. You can spend 2 ki points to cast {@spell pyrotechnics|xge}."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "Crushing Hand of the Mountain",
 												"entries": [
-													"You focus your strength into your outstretched fist, summoning a hand of earth from the ground. You can spend 2 ki points to cast {@spell maximilian’s earthen grasp}."
+													"You focus your strength into your outstretched fist, summoning a hand of earth from the ground. You can spend 2 ki points to cast {@spell maximilian’s earthen grasp|xge}."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "Curtain of Unyielding Wind",
 												"entries": [
-													"You let out a fierce howl as a mighty wind begins swirling around you. You can spend 2 ki points to cast {@spell warding wind}."
+													"You let out a fierce howl as a mighty wind begins swirling around you. You can spend 2 ki points to cast {@spell warding wind|xge}."
 												]
 											},
 											{
@@ -200,7 +200,7 @@
 												"type": "entries",
 												"name": "Hatchling's Flame",
 												"entries": [
-													"You focus your ki into a torrent of fire that streaks away from you. You can spend 2 ki points to cast {@spell aganazzar’s scorcher}."
+													"You focus your ki into a torrent of fire that streaks away from you. You can spend 2 ki points to cast {@spell aganazzar’s scorcher|xge}."
 												]
 											},
 											{
@@ -235,7 +235,7 @@
 												"type": "entries",
 												"name": "Swarming Ice Rabbit",
 												"entries": [
-													"A flurry of magic snowballs erupts from a point you choose within range. You can spend 2 ki points to cast {@spell snilloc’s snowball swarm}."
+													"A flurry of magic snowballs erupts from a point you choose within range. You can spend 2 ki points to cast {@spell snilloc’s snowball swarm|xge}."
 												]
 											},
 											{
@@ -266,14 +266,14 @@
 												"type": "entries",
 												"name": "Dance of Three Ways",
 												"entries": [
-													"You summon six spheres of earth from the ground, suspend them in the air around you, and ignite them with your fiery ki. With a thought, you launch these blazing meteors at your foe. You can spend 3 ki points to cast {@spell melf’s minute meteors}."
+													"You summon six spheres of earth from the ground, suspend them in the air around you, and ignite them with your fiery ki. With a thought, you launch these blazing meteors at your foe. You can spend 3 ki points to cast {@spell melf’s minute meteors|xge}."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "Earth Reaches for Sky",
 												"entries": [
-													"Focusing your strength with a deep, rumbling shout, you swing your arms up high, causing an eruption of churned earth and stone that engulfs your foes. You can spend 3 ki points to cast {@spell erupting earth}."
+													"Focusing your strength with a deep, rumbling shout, you swing your arms up high, causing an eruption of churned earth and stone that engulfs your foes. You can spend 3 ki points to cast {@spell erupting earth|xge}."
 												]
 											},
 											{
@@ -301,7 +301,7 @@
 												"type": "entries",
 												"name": "Hua's Water Prison",
 												"entries": [
-													"You conjure up a sphere of water that engulfs and imprisons foes that touch its surface. You can spend 4 ki to cast {@spell watery sphere}."
+													"You conjure up a sphere of water that engulfs and imprisons foes that touch its surface. You can spend 4 ki to cast {@spell watery sphere|xge}."
 												]
 											},
 											{
@@ -329,14 +329,14 @@
 												"type": "entries",
 												"name": "Raise the Troubled Earth",
 												"entries": [
-													"You stir the earth around you into action, summoning a wall of sand to serve as your barricade. You can spend 3 ki to cast {@spell wall of sand}."
+													"You stir the earth around you into action, summoning a wall of sand to serve as your barricade. You can spend 3 ki to cast {@spell wall of sand|xge}."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "Raise the Still Waters",
 												"entries": [
-													"Though water can give way easily, it can just as easily offer great resistance. You can spend 3 ki to cast {@spell wall of water}."
+													"Though water can give way easily, it can just as easily offer great resistance. You can spend 3 ki to cast {@spell wall of water|xge}."
 												]
 											},
 											{
@@ -357,7 +357,7 @@
 												"type": "entries",
 												"name": "Sea's Fury",
 												"entries": [
-													"You conjure up a mighty wave of water that crashes down on your foes. You can spend 3 ki to cast {@spell tidal wave}."
+													"You conjure up a mighty wave of water that crashes down on your foes. You can spend 3 ki to cast {@spell tidal wave|xge}."
 												]
 											},
 											{
@@ -420,21 +420,21 @@
 												"type": "entries",
 												"name": "Eye of the Hurricane",
 												"entries": [
-													"You stretch out your ki to embrace the winds. You can spend 5 ki points to cast {@spell control winds}."
+													"You stretch out your ki to embrace the winds. You can spend 5 ki points to cast {@spell control winds|xge}."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "Mold the Mountain",
 												"entries": [
-													"You master the many forms that earth may take. You can spend 5 ki to cast {@spell transmute rock}."
+													"You master the many forms that earth may take. You can spend 5 ki to cast {@spell transmute rock|xge}."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "Swirling Crab's Revenge",
 												"entries": [
-													"Your ki manifests as a swirling pool of water, smashing and pulling your foes towards its center. You can spend 5 ki points to cast {@spell maelstrom}."
+													"Your ki manifests as a swirling pool of water, smashing and pulling your foes towards its center. You can spend 5 ki points to cast {@spell maelstrom|xge}."
 												]
 											},
 											{
