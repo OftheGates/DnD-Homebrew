@@ -1,4 +1,5 @@
 {
+
 	"_meta": {
 		"sources": [
 			{
@@ -264,93 +265,114 @@
 										"entries": [
 											{
 												"type": "entries",
-												"name": "Become the Teapot",
+												"name": "Dance of Three Ways",
 												"entries": [
-													"You roll with the incoming energy, attuning to element, becoming it. You can spend 1 ki point to cast {@spell absorb elements}."
+													"You summon six spheres of earth from the ground, suspend them in the air around you, and ignite them with your fiery ki. With a thought, you launch these blazing meteors at your foe. You can spend 3 ki points to cast {@spell melf’s minute meteors}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Effortless Step",
+												"name": "Earth Reaches for Sky",
 												"entries": [
-													"The air around you works in unison with your movements, rising you up as you jump. Your jump height and distance are doubled (quadrupled with Step of the Wind) and you gain advantage on Strength (Athletics) checks related to jumping."
+													"Focusing your strength with a deep, rumbling shout, you swing your arms up high, causing an eruption of churned earth and stone that engulfs your foes. You can spend 3 ki points to cast {@spell erupting earth}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Enduring Mountain Stance",
+												"name": "Eternal Mountain Defense",
 												"entries": [
-													"Your body and mind becomes as rigid and unyielding as the ground below you. Your ki roots your feet into the ground and you become immovable. When you use the {@action Dodge} action, you cannot be moved, pushed, grappled, frightened, or knocked prone against your will until the start of your next turn, even if magically compelled to do so. You must be standing on the ground to use this ability."
+													"Your body hardens to stone, nearly impervious to weapons. You can spend 4 ki points to cast {@spell stoneskin}, targeting yourself."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Fangs of the Fire Snake",
+												"name": "Flames of the Phoenix",
 												"entries": [
-													"Your arms and legs become enveloped in roaring gouts of flame. When you make an unarmed attack on your turn, you can choose to strike out tendrils of flames which stretch out beyond your normal reach. Your reach increases by 5 feet for that attack, and it deals fire damage instead of bludgeoning damage. If the attack hits you can spend 1 ki point to deal an extra {@dice 1d10} fire damage."
+													"With a hand motion, you conjure a tiny bead of burning energy. You spend 3 ki points to cast {@spell fireball}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Fang of the Frost Wolf",
+												"name": "Fist of the Elements",
 												"entries": [
-													"You summon a shard of razor-sharp ice and fling it at your foe. You can spend 1 ki point to cast {@spell ice knife}."
+													"The elements swirl around your weapon. You can spend 3 ki points to cast {@spell elemental weapon}, choosing from only the damage types cold, fire, or thunder. Your unarmed strikes count as a weapon for the purposes of this discipline."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Fist of Four Thunders",
+												"name": "Hua's Water Prison",
 												"entries": [
-													"You slam your fists together in front of you, causing a thunderous boom that blows away everything around you. You can spend 1 ki point to cast {@spell thunderwave}."
+													"You conjure up a sphere of water that engulfs and imprisons foes that touch its surface. You can spend 4 ki to cast {@spell watery sphere}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Fist of Unbroken Air",
+												"name": "Mist Stance",
 												"entries": [
-													"You summon a swirling wind and concentrate it around your fist. When you make an unarmed attack on your turn, you can choose to strike out condensed bursts of air which stretch out beyond your normal reach. Your reach increases by 10 feet for that attack. If the attack hits you can spend 1 ki point to force the target to make a Strength saving throw or be pushed back 10 feet and be knocked {@condition prone}."
+													"A swirling mist envelopes your body and you merge with it, becoming a cloud. You can spend 3 ki points to cast {@spell gaseous form}, targeting yourself."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Golden Snake's Icy Path",
+												"name": "One with the Tides",
 												"entries": [
-													"Whenever you take the {@action Dash} action, until the end of your turn for any movement you make along a surface you can leave a trail of slippery ice. This ice counts as difficult terrain and lasts until the start of your next turn."
+													"You reach out with your ki and become one with water. You spend 2 ki points as an action to gain underwater adaptations for 8 hours. While this ability is active, you can breath normally underwater, you gain a swim speed equal to your walking speed, and you gain blindsight with a radius of 60 feet while underwater."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Rumbling Badger",
+												"name": "Rain of the Frigid Glacier",
 												"entries": [
-													"You shake the ground, causing a tremor that knocks over your foes. You can spend 1 ki point to cast {@spell earth tremor}."
+													"You cool the air in the skies above you, condensing the water droplets into freezing rain and sleet. You can spend 3 ki points to cast {@spell sleet storm}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Rush of Gale Spirits",
+												"name": "Raise the Troubled Earth",
 												"entries": [
-													"You send a blast of air outward with a thrust of your open palm. You can spend 2 ki points to cast {@spell gust of wind}."
+													"You stir the earth around you into action, summoning a wall of sand to serve as your barricade. You can spend 3 ki to cast {@spell wall of sand}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Shape the Raincloud",
+												"name": "Raise the Still Waters",
 												"entries": [
-													"You can spend 1 ki point to cast {@spell create or destroy water}."
+													"Though water can give way easily, it can just as easily offer great resistance. You can spend 3 ki to cast {@spell wall of water}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Sweeping Cinder Strike",
+												"name": "Ride the Wind",
 												"entries": [
-													"With a wide sweeping gesture, you summon forth a barrage of hot cinders. You can spend 1 ki point to cast {@spell burning hands}."
+													"You summon a mighty wind that envelopes your body, sweeping you to where you want to go. You spend 3 ki points to cast {@spell fly}, targeting yourself, except your fly speed is equal to your movement speed."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Water Whip",
+												"name": "River of Hungry Flame",
 												"entries": [
-													"You summon a long, rubbery whip of pure water that you grip by one end. You can spend 1 ki point as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes bludgeoning damage equal to your Martial Arts die + your Wisdom modifier, plus an extra {@dice 1d10} bludgeoning damage for each additional ki point you spend, and you can either knock it {@condition prone} or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don’t pull it or knock it {@condition prone}. You can’t use Water Whip and cast a spell during the same turn."
+													"You sweep your hands upward, causing a wall of blazing hot fire to leap up from the ground. You can spend 4 ki points to cast {@spell wall of fire}."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Sea's Fury",
+												"entries": [
+													"You conjure up a mighty wave of water that crashes down on your foes. You can spend 3 ki to cast {@spell tidal wave}."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Shape of the Flowing River",
+												"entries": [
+													"You touch the body of water with your ki, coaxing it to change its form. You can spend 4 ki points to cast {@spell control water}."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "Spellfist Stance",
+												"entries": [
+													"You effortlessly flow between martial and elemental assault. When you use your action to use an elemental discipline, you can make one unarmed strike as a bonus action, or you can use your Flurry of Blows."
 												]
 											}
 										]
