@@ -163,93 +163,86 @@
 										"entries": [
 											{
 												"type": "entries",
-												"name": "Become the Teapot",
+												"name": "A Leaf on the Wind",
 												"entries": [
-													"You roll with the incoming energy, attuning to element, becoming it. You can spend 1 ki point to cast {@spell absorb elements}."
+													"A powerful wind rises up to catch you as you fall. Your Slow Fall ability no longer requires a reaction to use, and instead you may use it automatically whenever you are conscious and not incapacitated, and it negates all falling damage regardless of distance. When you use the Slow Fall ability, you may also glide along the air to move 5 feet in any horizontal direction for every 5 feet that you fall."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Effortless Step",
+												"name": "Burning Ember Flourish",
 												"entries": [
-													"The air around you works in unison with your movements, rising you up as you jump. Your jump height and distance are doubled (quadrupled with Step of the Wind) and you gain advantage on Strength (Athletics) checks related to jumping."
+													"You reach out with your ki to snuff out a source of fire, causing it to go out with a bang or to sputter black smoke. You can spend 2 ki points to cast {@spell pyrotechnics}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Enduring Mountain Stance",
+												"name": "Crushing Hand of the Mountain",
 												"entries": [
-													"Your body and mind becomes as rigid and unyielding as the ground below you. Your ki roots your feet into the ground and you become immovable. When you use the {@action Dodge} action, you cannot be moved, pushed, grappled, frightened, or knocked prone against your will until the start of your next turn, even if magically compelled to do so. You must be standing on the ground to use this ability."
+													"You focus your strength into your outstretched fist, summoning a hand of earth from the ground. You can spend 2 ki points to cast {@spell maximilian’s earthen grasp}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Fangs of the Fire Snake",
+												"name": "Curtain of Unyielding Wind",
 												"entries": [
-													"Your arms and legs become enveloped in roaring gouts of flame. When you make an unarmed attack on your turn, you can choose to strike out tendrils of flames which stretch out beyond your normal reach. Your reach increases by 5 feet for that attack, and it deals fire damage instead of bludgeoning damage. If the attack hits you can spend 1 ki point to deal an extra {@dice 1d10} fire damage."
+													"You let out a fierce howl as a mighty wind begins swirling around you. You can spend 2 ki points to cast {@spell warding wind}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Fang of the Frost Wolf",
+												"name": "Gong of the Summit",
 												"entries": [
-													"You summon a shard of razor-sharp ice and fling it at your foe. You can spend 1 ki point to cast {@spell ice knife}."
+													"You strike the air as if it were a gong. You can spend 2 ki points to cast {@spell shatter}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Fist of Four Thunders",
+												"name": "Hatchling's Flame",
 												"entries": [
-													"You slam your fists together in front of you, causing a thunderous boom that blows away everything around you. You can spend 1 ki point to cast {@spell thunderwave}."
+													"You focus your ki into a torrent of fire that streaks away from you. You can spend 2 ki points to cast {@spell aganazzar’s scorcher}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Fist of Unbroken Air",
+												"name": "Impenetrable Iron Tortoise Shell",
 												"entries": [
-													"You summon a swirling wind and concentrate it around your fist. When you make an unarmed attack on your turn, you can choose to strike out condensed bursts of air which stretch out beyond your normal reach. Your reach increases by 10 feet for that attack. If the attack hits you can spend 1 ki point to force the target to make a Strength saving throw or be pushed back 10 feet and be knocked {@condition prone}."
+													"You summon an earthen barrier to defend yourself or an ally. As a reaction, you may spend 2 ki points to use your Deflect Missiles ability against an attack you can see within 30 feet of you. Any damage not prevented by this ability is taken by the original target of the attack. If you reduce the damage to 0, you can’t make an attack with it."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Golden Snake's Icy Path",
+												"name": "Mote of the Sun",
 												"entries": [
-													"Whenever you take the {@action Dash} action, until the end of your turn for any movement you make along a surface you can leave a trail of slippery ice. This ice counts as difficult terrain and lasts until the start of your next turn."
+													"Your ki manifests as a roaring orb of fire. You can spend 2 ki points to cast {@spell flaming sphere}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Rumbling Badger",
+												"name": "Patient Badger Listens",
 												"entries": [
-													"You shake the ground, causing a tremor that knocks over your foes. You can spend 1 ki point to cast {@spell earth tremor}."
+													"You reach out with your ki to the ground beneath you. You can spend 2 ki points as a bonus action to gain tremorsense with a range of 30 feet and a burrow speed equal to half of your walking speed for up to 1 minute. Your movement leaves behind a tunnel that remains for as long as this ability is active, and then collapses."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Rush of Gale Spirits",
+												"name": "Red Dragon's Claws",
 												"entries": [
-													"You send a blast of air outward with a thrust of your open palm. You can spend 2 ki points to cast {@spell gust of wind}."
+													"Rays of fire spring from your outstretched hand to sear your foes. You can spend 2 ki points to cast {@spell scorching ray}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Shape the Raincloud",
+												"name": "Swarming Ice Rabbit",
 												"entries": [
-													"You can spend 1 ki point to cast {@spell create or destroy water}."
+													"A flurry of magic snowballs erupts from a point you choose within range. You can spend 2 ki points to cast {@spell snilloc’s snowball swarm}."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "Sweeping Cinder Strike",
+												"name": "Water Jet",
 												"entries": [
-													"With a wide sweeping gesture, you summon forth a barrage of hot cinders. You can spend 1 ki point to cast {@spell burning hands}."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "Water Whip",
-												"entries": [
-													"You summon a long, rubbery whip of pure water that you grip by one end. You can spend 1 ki point as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes bludgeoning damage equal to your Martial Arts die + your Wisdom modifier, plus an extra {@dice 1d10} bludgeoning damage for each additional ki point you spend, and you can either knock it {@condition prone} or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don’t pull it or knock it {@condition prone}. You can’t use Water Whip and cast a spell during the same turn."
+													"You can spend 2 ki points as an action to unleash a jet of water in a line that is 30 feet long and 5 feet wide. Each creature in the line must make a Strength saving throw, taking bludgeoning damage equal to your Martial Arts die + your Wisdom modifier on a failed save, or half as much damage on a successful one. In addition, you can move each target that fails its saving throw to any unoccupied space touching the line."
 												]
 											}
 										]
