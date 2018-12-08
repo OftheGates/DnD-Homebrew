@@ -4,7 +4,7 @@
 			{
 				"json": "WotFA",
 				"abbreviation": "FA",
-				"full": "Way of the Four Elements (UA)",
+				"full": "Way of the Four Elements Remastered",
 				"authors": [
 					"SpiketailDrake",
 					"IrishBandit"
@@ -453,7 +453,7 @@
 				]
 			],
 			"source": "WotFA",
-			"shortName": "Four Elements (UA)"
+			"shortName": "Four Elements (Re)"
 		}
 	]
 }
