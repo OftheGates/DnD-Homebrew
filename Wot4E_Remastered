@@ -141,7 +141,7 @@
 												"type": "entries",
 												"name": "Water Whip",
 												"entries": [
-													"You summon a long, rubbery whip of pure water that you grip by one end. You can spend 1 ki point as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes bludgeoning damage equal to your Martial Arts die + your Wisdom modifier, plus an extra {@dice 1d10} bludgeoning damage for each additional ki point you spend, and you can either knock it {@condition prone} or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don’t pull it or knock it {@condition prone}. You can’t use Water Whip and cast a spell during the same turn."
+													"You summon a long, rubbery whip of pure water that you grip by one end. You can spend 1 ki point as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes bludgeoning damage equal to your Martial Arts die + your Wisdom modifier, plus an extra {@dice 1d10} bludgeoning damage for each additional ki point you spend, and you can either knock it {@condition prone} or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don't pull it or knock it {@condition prone}. You can't use Water Whip and cast a spell during the same turn."
 												]
 											}
 										]
@@ -179,7 +179,7 @@
 												"type": "entries",
 												"name": "Crushing Hand of the Mountain",
 												"entries": [
-													"You focus your strength into your outstretched fist, summoning a hand of earth from the ground. You can spend 2 ki points to cast {@spell maximilian's earthen grasp|xge}."
+													"You focus your strength into your outstretched fist, summoning a hand of earth from the ground. You can spend 2 ki points to cast {@spell Maximilian's earthen grasp|xge}."
 												]
 											},
 											{
@@ -200,7 +200,7 @@
 												"type": "entries",
 												"name": "Hatchling's Flame",
 												"entries": [
-													"You focus your ki into a torrent of fire that streaks away from you. You can spend 2 ki points to cast {@spell aganazzar's scorcher|xge}."
+													"You focus your ki into a torrent of fire that streaks away from you. You can spend 2 ki points to cast {@spell Aganazzar's scorcher|xge}."
 												]
 											},
 											{
@@ -235,7 +235,7 @@
 												"type": "entries",
 												"name": "Swarming Ice Rabbit",
 												"entries": [
-													"A flurry of magic snowballs erupts from a point you choose within range. You can spend 2 ki points to cast {@spell snilloc's snowball swarm|xge}."
+													"A flurry of magic snowballs erupts from a point you choose within range. You can spend 2 ki points to cast {@spell Snilloc's snowball swarm|xge}."
 												]
 											},
 											{
@@ -266,7 +266,7 @@
 												"type": "entries",
 												"name": "Dance of Three Ways",
 												"entries": [
-													"You summon six spheres of earth from the ground, suspend them in the air around you, and ignite them with your fiery ki. With a thought, you launch these blazing meteors at your foe. You can spend 3 ki points to cast {@spell melf's minute meteors|xge}."
+													"You summon six spheres of earth from the ground, suspend them in the air around you, and ignite them with your fiery ki. With a thought, you launch these blazing meteors at your foe. You can spend 3 ki points to cast {@spell Melf's minute meteors|xge}."
 												]
 											},
 											{
