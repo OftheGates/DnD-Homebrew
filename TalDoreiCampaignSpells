@@ -1,0 +1,253 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TalDoreiCampaignSpells",
+				"abbreviation": "TCSS",
+				"full": "Tal'Dorei Campaign Spell Supplement",
+				"authors": [
+					"Fartin' Fardini"
+				],
+				"version": "6.9",
+				"url": "https://github.com/OftheGates/DnD-Homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753
+	},
+	"spell": [
+		{
+			"name": "Ascending Flame",
+			"source": "TCSS",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"A flame-like radiance burns a creature that you can see within range. The target must succeed on a Dexterity saving throw or take {@dice 1d6} radiant damage, granting you half of the damage dealt as temporary hit points. The target gains no benefit from cover for this saving throw.",
+				"The spell's damage increases by 1d6 when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+			]
+		},
+		{
+			"name": "Benediction",
+			"source": "TCSS",
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "minute",
+						"amount": 1,
+						"upTo": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You touch one willing creature. The target gains a +1 bonus to AC for the next attack made against it, then the spell ends. This effect can only be active on one target at a time."
+			]
+		},
+		{
+			"name": "Courage",
+			"source": "TCSS",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You touch a willing creature and strengthen its resolve. Until the end of the creature's next turn, it cannot be {@condition frightened}. If the target is currently {@condition frightened}, it can immediately reroll its saving throw if one was required to avoid the condition."
+			]
+		},
+		{
+			"name": "Dazzle",
+			"source": "TCSS",
+			"level": 0,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You create a flash of blinding light directly in front of a creature that you can see within range. The target is subjected to a Charisma saving throw. On a failure, it has disadvantage on its next attack, or grants advantage on the next attack made against it, whichever comes first.",
+				"The target must originally be able to see in order to suffer these effects."
+			]
+		},
+		{
+			"name": "Gleam",
+			"source": "TCSS",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"You may use your reaction to cause your physical form to emit a bright flash of light. This flash will shed bright light in a 10-foot radius and dim light for an additional 10 feet, centered on yourself.",
+				"If you are currently being grappled by a creature, it must make a Dexterity saving throw or take {@dice 1d6 radiant damage} and drop its grapple on a failed save. On a successful save, a creature takes half as much damage and does not drop its grapple.",
+				"The spell's damage increases by 1d6 when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+			]
+		}
+	]
+}
