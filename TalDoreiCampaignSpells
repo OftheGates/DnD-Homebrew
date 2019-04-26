@@ -2,11 +2,11 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "TCS",
+				"json": "TalDoreiCampaignSupplement",
 				"abbreviation": "TCSS",
 				"full": "Tal'Dorei Campaign Spell Supplement",
 				"authors": [
-					"Fartin' Fardini"
+					"FartinFardini"
 				],
 				"version": "6.9",
 				"url": "https://github.com/OftheGates/DnD-Homebrew",
@@ -18,7 +18,7 @@
 	"spell": [
 		{
 			"name": "Ascending Flame",
-			"source": "TCSS",
+			"source": "TalDoreiCampaignSupplement",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -53,12 +53,12 @@
 			},
 			"entries": [
 				"A flame-like radiance burns a creature that you can see within range. The target must succeed on a Dexterity saving throw or take {@dice 1d6} radiant damage, granting you half of the damage dealt as temporary hit points. The target gains no benefit from cover for this saving throw.",
-				"The spell's damage increases by 1d6 when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"The spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
 			]
 		},
 		{
 			"name": "Benediction",
-			"source": "TCSS",
+			"source": "TalDoreiCampaignSupplement",
 			"level": 0,
 			"school": "A",
 			"time": [
@@ -79,9 +79,12 @@
 			},
 			"duration": [
 				{
-					"type": "minute",
+					"type": "timed",
+					"duration": {
 						"amount": 1,
+						"type": "minute",
 						"upTo": true
+					}
 				}
 			],
 			"classes": {
@@ -102,7 +105,7 @@
 		},
 		{
 			"name": "Courage",
-			"source": "TCSS",
+			"source": "TalDoreiCampaignSupplement",
 			"level": 0,
 			"school": "E",
 			"time": [
@@ -148,7 +151,7 @@
 		},
 		{
 			"name": "Dazzle",
-			"source": "TCSS",
+			"source": "TalDoreiCampaignSupplement",
 			"level": 0,
 			"school": "I",
 			"time": [
@@ -199,8 +202,57 @@
 			]
 		},
 		{
+			"name": "Dueling Shadows",
+			"source": "TalDoreiCampaignSupplement",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose two creatures within range that are within 5 feet of each other. Each target must succeed on a Dexterity saving throw or take 1d4 necrotic damage as their shadows lash out at each other.",
+				"If one of the creatures moves before the start of your next turn, both targets must repeat the saving throw as the shadows lash out again, dealing another 1d4 necrotic damage.",
+				"The spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
 			"name": "Gleam",
-			"source": "TCSS",
+			"source": "TalDoreiCampaignSupplement",
 			"level": 0,
 			"school": "V",
 			"time": [
@@ -244,9 +296,9 @@
 				]
 			},
 			"entries": [
-				"You may use your reaction to cause your physical form to emit a bright flash of light. This flash will shed bright light in a 10-foot radius and dim light for an additional 10 feet, centered on yourself.",
-				"If you are currently being grappled by a creature, it must make a Dexterity saving throw or take {@dice 1d6 radiant damage} and drop its grapple on a failed save. On a successful save, a creature takes half as much damage and does not drop its grapple.",
-				"The spell's damage increases by 1d6 when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+				"You may use your reaction to cause your physical form to emit a bright flash of light. This flash will shed bright light in a 10-foot radius and dim light for an additional 10 feet, centered on you.",
+				"If you are currently being {@condition grappled} by a creature, it must make a Dexterity saving throw or take {@dice 1d6} radiant damage and end its grapple. On a successful save, a creature takes half as much damage and does not end its grapple.",
+				"The spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
 			]
 		}
 	]
